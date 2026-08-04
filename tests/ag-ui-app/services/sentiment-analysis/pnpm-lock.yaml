@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@hono/node-server':
-        specifier: ^1.13.0
-        version: 1.19.8(hono@4.11.4)
+        specifier: ^2.0.10
+        version: 2.0.10(hono@4.12.34)
       better-sqlite3:
         specifier: ^11.6.0
         version: 11.10.0
       hono:
-        specifier: ^4.6.0
-        version: 4.11.4
+        specifier: ^4.12.34
+        version: 4.12.34
       nanoid:
         specifier: ^5.0.9
         version: 5.1.6
@@ -195,9 +195,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@hono/node-server@1.19.8':
-    resolution: {integrity: sha512-0/g2lIOPzX8f3vzW1ggQgvG5mjtFBDBHFAzI5SFAi2DzSqS9luJwqg9T6O/gKYLi+inS7eNxBeIFkkghIPvrMA==}
-    engines: {node: '>=18.14.1'}
+  '@hono/node-server@2.0.10':
+    resolution: {integrity: sha512-ZcnNVhKTmyDJeg0UlnZjvM73JBsTAuhrH/J4fjwGOw59PwOW51r4J+p6CsKZWXdKSme4MFqU62CZMOsdDrU4CA==}
+    engines: {node: '>=20'}
     peerDependencies:
       hono: ^4
 
@@ -357,8 +357,8 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
-  hono@4.11.4:
-    resolution: {integrity: sha512-U7tt8JsyrxSRKspfhtLET79pU8K+tInj5QZXs1jSugO1Vq5dFj3kmZsRldo29mTBfcjDRVRXrEZ6LS63Cog9ZA==}
+  hono@4.12.34:
+    resolution: {integrity: sha512-GqXJqY/xJkJmuloTrnV1ZEXG3fqte+VjkUqoRNZXcrUidiUOP4fMSIHHY4tsqZBK++kVyWmt/AAfSUuy57/eSA==}
     engines: {node: '>=16.9.0'}
 
   humanize-ms@1.2.1:
@@ -442,6 +442,7 @@ packages:
   prebuild-install@7.1.3:
     resolution: {integrity: sha512-8Mf2cbV7x1cXPUILADGI3wuhfqWvtiLA1iclTDbFRZkgRQS0NqsPZphna9V+HyTEadheuPmjaJMsbzKQFOzLug==}
     engines: {node: '>=10'}
+    deprecated: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
     hasBin: true
 
   pump@3.0.3:
@@ -604,9 +605,9 @@ snapshots:
   '@esbuild/win32-x64@0.27.2':
     optional: true
 
-  '@hono/node-server@1.19.8(hono@4.11.4)':
+  '@hono/node-server@2.0.10(hono@4.12.34)':
     dependencies:
-      hono: 4.11.4
+      hono: 4.12.34
 
   '@types/better-sqlite3@7.6.13':
     dependencies:
@@ -796,7 +797,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hono@4.11.4: {}
+  hono@4.12.34: {}
 
   humanize-ms@1.2.1:
     dependencies:
